@@ -1,0 +1,11 @@
+Steps for compilation: 
+
+g++ server.cpp -o server -std=c++11
+
+g++ client.cpp -o client -std=c++11
+
+To run server:
+server.cpp - port number
+
+To run client:
+client.cpp - server_address server_port_number client_download_port_number
