@@ -69,6 +69,7 @@ public:
 
 //-------------------------------------------------------------
 	//graceful shutdown
+	//incase of error
 	void shutdown(){
 		close(sock_repo_serv);
 		close(sock_remote_client);
